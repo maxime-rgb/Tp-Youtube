@@ -1,0 +1,86 @@
+.LogoYoutube{
+    width: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+.logoProfil{
+    width: 7vh;
+    margin-bottom: 5px;
+    margin-right: 5px; 
+}
+
+.form-switch{
+    margin-left: 90%;
+
+}
+
+h3{
+color: rgb(0, 0, 0);
+text-decoration: underline;
+margin-top: 5vh;
+}
+
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 5vw;
+padding-right: 5vw;
+height: 12vh;
+margin-bottom: 5vw;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+}
+
+.form-control{
+    min-width: 40vw;
+    min-height: 5vh;
+}
+
+.btn{
+    min-width: 4vw;
+}
+
+.containerVideoFav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6vh;
+}
+
+iframe{
+    width: 20vw;
+    margin: 1vw;
+}
+
+/* DARKMODE */
+
+body.darkmode{
+    background-color: black;
+}
+.navbar.darkmode{
+    background-color: rgb(99, 99, 99)!important;
+}
+.navbar a.darkmode{
+    color: white;
+}
+
+h3.darkmode{
+    color: white;
+}
+iframe.darkmode{
+    width: 20vw;
+    margin: 1vw;
+    border: 1px solid white;
+}
+label.form-check-label.darkmode{
+    color: white;
+    }
+hr.darkmode{
+    height: 20px;
+    color: white;
+}
